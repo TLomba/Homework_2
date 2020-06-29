@@ -2,14 +2,49 @@
 * {
   font-family: "Merriweather, serif;";
 }
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .card {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+.row-1,
+.row_2,
+.navbar-brand,
+.navbar-toggler,
+.navbar-toggler-icon {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto !important;
+  float: none !important;
+}
 
 .navBar {
   padding: 10px;
   margin: auto;
+  align: center;
 }
 
 body {
   background-color: rgb(208, 207, 209);
+  max-width: ;
 }
 
 .container {
@@ -29,4 +64,51 @@ body {
 .btn_btn-primary_mb-2 {
   color: #333;
   background-color: rgb(208, 207, 209);
+}
+
+div.img {
+  border: 1px solid #ccc;
+}
+
+div.img:hover {
+  border: 1px solid #777;
+}
+
+div.img img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
