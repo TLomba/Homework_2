@@ -3,22 +3,30 @@
   font-family: "Merriweather, serif;";
 }
 
-/* class="navbar navbar-expand-lg navbar-light bg-light"> */
+.navBar {
+  padding: 10px;
+  margin: auto;
+}
 
-/* class="navbar-brand" */
+body {
+  background-color: rgb(208, 207, 209);
+}
 
-/* class="navbar-toggler" */
+.container {
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  align: right;
+}
 
-/* class="navbar-toggler-icon" */
+.form-group,
+.form-conrtol {
+  padding: 10px auto;
+  margin: auto;
+}
 
-/* class="collapse navbar-collapse" */
-
-/* lass="navbar-nav mr-auto" */
-
-/* lass="nav-item active" */
-
-/* lass="nav-link" */
-
-/* class="nav-item" */
-
-/* class="nav-link" */
+.btn_btn-primary_mb-2 {
+  color: #333;
+  background-color: rgb(208, 207, 209);
+}
