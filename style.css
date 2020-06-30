@@ -25,6 +25,9 @@
 @media (min-width: 1200px) {
 }
 
+.bio_col-2 {
+}
+
 .row-1,
 .row_2,
 .navbar-brand,
@@ -44,14 +47,14 @@
 
 body {
   background-color: rgb(208, 207, 209);
-  max-width: ;
+  max-width: 100%;
 }
 
 .container {
   padding: 10px;
   width: 80%;
   margin: auto;
-  background-color: white;
+  background-color: rgb(208, 207, 209);
   align: right;
 }
 
