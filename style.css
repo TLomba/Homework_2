@@ -26,6 +26,9 @@
 }
 
 .bio_col-2 {
+  padding: 10px;
+  margin: auto;
+  align: center;
 }
 
 .row-1,
@@ -43,6 +46,7 @@
   padding: 10px;
   margin: auto;
   align: center;
+  background-color: rgb(208, 207, 209);
 }
 
 body {
