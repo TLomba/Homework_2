@@ -1,28 +1,7 @@
 /* Adding google font */
 * {
   font-family: "Merriweather, serif;";
-}
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .card {
-    width: 80%;
-    margin: auto;
-  }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
+  font-size: max(1em, 16px);
 }
 
 .col-2 {
@@ -32,15 +11,23 @@
 }
 
 .row-1,
-.row_2,
-.navbar-brand,
+.row-2,
+.row-3,
 .navbar-toggler,
 .navbar-toggler-icon {
   display: flex;
   max-width: 1080px;
   margin: 0 auto !important;
   float: none !important;
+}
+
+.navbar-brand {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto !important;
+  float: none !important;
   align: center;
+  font-size: max(1em, 28px);
 }
 
 .navBar {
@@ -55,7 +42,7 @@ body {
   max-width: 100%;
 }
 
-.container_col-3 {
+.container {
   padding: 10px;
   width: 80%;
   margin: auto;
