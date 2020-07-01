@@ -1,3 +1,5 @@
+Test Folder
+
 This project is a portfolio website which includes a home page, portfoio page, and contact page to make a three page html / CSS website.
 
 On the home page there is basic personal information next to an image tat serves as an avatar, in total equalling a short biography. On the portfolio page previous works are showcased through images and brief descriptions,
