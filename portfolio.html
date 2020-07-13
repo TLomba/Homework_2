@@ -1,145 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tiffany Lombardi</title>
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <!-- Google Font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <title>Tiffany Lombardi</title>
 </head>
 
 <body>
-    <!-- NavBar here that should be the same on every page -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Portf_img/Carousel_1.png" class="d-block w-100" alt="Nova_Deatil_1">
+            </div>
+            <div class="carousel-item">
+                <img src="Portf_img/Carousel_2.png" class="d-block w-100" alt="Nova_Deatil_2">
+            </div>
+            <div class="carousel-item">
+                <img src="Portf_img/Carousel_3.png" class="d-block w-100" alt="Nova_Deatil_3">
+            </div>
+        </div>
+    </div>
+    <!-- Image and text -->
+    <!-- <nav class="row justify-content-center navbar-light bg-light">
+        <div class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Tiffany Lombardi</a>
+        </div>
+    </nav> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Tiffany Lombardi needs to be in first row and centered -->
-        <div class="row">
-            <div class="col-sm-12">
-                <a class="col-sm-12" href="index.html">Tiffany Lombardi</a>
-            </div>
-            <button class="navbar-toggler col-sm-12" type="button" data-toggle="collapse"
-                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse col-sm-12" id="navbarNavDropdown">
-                <!-- About Me Portfolio and Contact on second row and centered when small -->
-                <ul class="navbar-nav col-sm-12">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Links
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="index.html">About Me</a>
-                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                            <a class="dropdown-item" href="contact.html">Contact</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+        <a class="navbar-brand" href="index.html">Tiffany Lombardi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
     </nav>
-
-    <h1 class="col-md-5">Portfolio</h1>
-    <hr />
-    <br />
-    <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-            <div class="card">
-                <img src="Assets/IMG_4436.jpeg" class="card-img-top" alt="Artwork 1" />
-                <div class="card-body">
-                    <h5 class="card-title">Marking Time</h5>
-                    <p class="card-text">
-                        This is a longer card with supporting text below as a natural
-                        lead-in to additional content. This content is a little bit
-                        longer.
-                    </p>
+    <div class="container">
+        <h1 class="col-md-5">Portfolio</h1>
+        <hr />
+        <br />
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Portf_img/IMG_4856 2.jpeg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Flower 2</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card">
-                <img src="Assets/IMG_4466.jpeg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">Sunday Afternoon</h5>
-                    <p class="card-text">
-                        This is a longer card with supporting text below as a natural
-                        lead-in to additional content. This content is a little bit
-                        longer.
-                    </p>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Portf_img/IMG_4855.jpeg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Flower 1</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card">
-                <img src="Assets/IMG_4855.jpeg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">Flower 1</h5>
-                    <p class="card-text">
-                        This is a longer card with supporting text below as a natural
-                        lead-in to additional content.
-                    </p>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Portf_img/IMG_4239.jpeg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Flower 3</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card">
-                <img src="Assets/IMG_4856 2.jpeg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">Flower 2</h5>
-                    <p class="card-text">
-                        This is a longer card with supporting text below as a natural
-                        lead-in to additional content. This content is a little bit
-                        longer.
-                    </p>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Portf_img/723CDAD8-0B51-40BD-A179-28213698616D.jpeg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Flower 4</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card">
-                <img src="Assets/IMG_4224.jpeg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">Flower 3</h5>
-                    <p class="card-text">
-                        This is a longer card with supporting text below as a natural
-                        lead-in to additional content. This content is a little bit
-                        longer.
-                    </p>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Portf_img/IMG_4224.jpeg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Flower 5</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card">
-                <img src="Assets/IMG_4239.jpeg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">Flower 4</h5>
-                    <p class="card-text">
-                        This is a longer card with supporting text below as a natural
-                        lead-in to additional content. This content is a little bit
-                        longer.
-                    </p>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Portf_img/IMG_4226.jpeg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Flower 6</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Portf_img/IMG_4436.jpeg" class="card-img-top" alt="Artwork 1" />
+                    <div class="card-body">
+                        <h5 class="card-title">Marking Time</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="Portf_img/IMG_4466.jpeg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Sunday Afternoon</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

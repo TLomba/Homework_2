@@ -1,9 +1,12 @@
 Test Folder
 
-This project is a portfolio website which includes a home page, portfoio page, and contact page to make a three page html / CSS website.
+This project is a portfolio website which includes a home page, portfoio page, and contact page to make a three page web responisve, mobile first website.
 
-On the home page there is basic personal information next to an image tat serves as an avatar, in total equalling a short biography. On the portfolio page previous works are showcased through images and brief descriptions,
-and on the contact page visitors to the site are able to share name, email, and a brief message to reach out.
+On the home page there is basic personal information next to an image, in total equalling a short biography.
+
+On the portfolio page previous works are showcased through images and brief descriptions.
+
+On the contact page visitors to the site are able to share name, email, and a brief message to reach out.
 
 HTML and CSS were used to try and create a responsive, mobile first or mobile friendly site, meaning that it
 looks good on any size screen. It is hopefully SEO friendly and will be rated well by google in terms of usability.

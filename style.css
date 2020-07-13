@@ -21,13 +21,16 @@
   float: none !important;
 }
 
+/* Can't seem to get the navBar buttons to indent so that they align with the About me and image. */
 .navbar-brand {
   display: flex;
   max-width: 1080px;
-  margin: 0 auto !important;
+  /* margin: 0 auto !important; */
+  margin-left: 80px !important;
   float: none !important;
-  align: center;
+  align: center !important;
   font-size: max(1em, 28px);
+  /* text-indent: 10em !important; */
 }
 
 .navBar {
